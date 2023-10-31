@@ -387,7 +387,7 @@ $(function() {
   // that contain 'lightbox'. When these are clicked, start lightbox.
   Lightbox.prototype.enable = function() {
     var self = this;
-    $('body').on('mouseenter', 'a[rel^=lightbox], area[rel^=lightbox], a[data-lightbox], area[data-lightbox], div[data-lightbox], div[rel^=lightbox]', function(event) {
+    $('body').on('click', 'a[rel^=lightbox], area[rel^=lightbox], a[data-lightbox], area[data-lightbox], div[data-lightbox], div[rel^=lightbox]', function(event) {
       self.start($(event.currentTarget));
       return false;
     });
