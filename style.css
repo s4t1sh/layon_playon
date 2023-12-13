@@ -13040,14 +13040,12 @@ footer.footer--2 {
 @media only screen and (max-width: 428px) {
 
 
-  .grid-container {
+  /* .grid-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr) !important;
-    /* Creates 5 equal-width columns */
     gap: 10px;
-    /* Adjust the gap between grid items according to your preference */
     text-align: center;
-  }
+  } */
 
 }
 
