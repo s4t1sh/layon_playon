@@ -2707,6 +2707,7 @@ Blocks Styles
   height: 100px;
   position: relative;
   margin-top: 7px;
+  display: flex;
 }
 
 .shopbox a {
@@ -2824,6 +2825,8 @@ Blocks Styles
   padding: 0px 15px;
   font-size: 18px;
 }
+
+
 
 .header--3 .mainmenu__wrapper .mainmenu__wrap .mainmenu__nav .mainmenu>li>a {
   color: #777777;
@@ -13201,4 +13204,30 @@ footer.footer--2 {
 
 .image-container:hover img {
   transform: scale(1.1); /* Zoom the image by 20% on hover */
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  /* .shopbox{
+   display: block !important;
+ } */
+ .mainmenu__wrapper .mainmenu__wrap .mainmenu__nav .mainmenu>li {
+   align-self: stretch;
+   display: flex;
+   margin: 0 0.7rem;
+ }
+ .mainmenu__wrapper .container{
+   max-width: 100% !important;
+ }
+
+ .header--2 .shopbox a{
+  background: #5c97bf none repeat scroll 0 0;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: bold;
+  height: 35px;
+  line-height: 35px;
+  width: auto;
+  padding: 0px 7px;
+  font-size: 18px;
+ }
 }
