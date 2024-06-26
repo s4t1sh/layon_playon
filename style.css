@@ -13111,8 +13111,15 @@ footer.footer--2 {
 }
 
 .gallery-page-one .gallery {
-  /* margin-left: 0px; */
+  margin-left: 0px;
   padding-top: 15px;
+}
+
+@media screen and (max-width: 768px){
+  .gallery-page-one .gallery {
+    margin-right: 0px;
+    padding-top: 15px;
+  }
 }
 
 .fnt {
